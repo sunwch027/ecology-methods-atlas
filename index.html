@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>生态学方法实例库 · 交互版</title>
+<meta name="description" content="137 个生态学经典分析方法：原始文献、公开数据、真实计算结果与读图指南。">
+<link rel="stylesheet" href="assets/style.css?v=20261102i">
+</head>
+<body>
+
+<header class="topbar">
+  <button id="menuBtn" class="icon-btn" aria-label="打开目录">☰</button>
+  <a class="brand" href="#/" aria-label="返回首页">
+    <span class="mark">EA</span>
+    <span>生态学方法实例库</span>
+    <span class="sub">137 methods · data-backed</span>
+  </a>
+  <button id="figSize" class="size-btn" type="button" title="切换图片大小">图幅 中</button>
+  <div class="search">
+    <input id="search" type="search" placeholder="搜索方法、数据或文献（按 / 聚焦）" autocomplete="off">
+  </div>
+</header>
+
+<div class="shell">
+  <aside id="sidebar">
+    <div class="side-head"><span>目录</span><span class="count" id="count"></span></div>
+    <nav id="tree" aria-label="章节目录"></nav>
+    <div class="side-foot">数据：vegan · R datasets ｜ 计算：独立实现</div>
+  </aside>
+  <main id="main"></main>
+</div>
+
+<script src="data/content.js?v=20261102i"></script>
+<script src="assets/app.js?v=20261102i"></script>
+</body>
+</html>
